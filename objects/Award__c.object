@@ -155,6 +155,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Date_Received__c</fullName>
+        <description>The date the award was received.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the award was received.</inlineHelpText>
+        <label>Date Received</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Recipient__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <description>The recipient of the award.</description>
@@ -168,22 +178,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Date_Received__c</fullName>
-        <description>The date the award was received.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>The date the award was received.</inlineHelpText>
-        <label>Date Received</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
     <label>Award</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <nameField>
         <label>Award Name</label>
         <type>Text</type>
